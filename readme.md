@@ -33,7 +33,7 @@ The application consists of two main pages:
 ## Test Account Credentials
 
 You can use the following credentials to log in without registering:
-```bash
+
 Email: test5@email.com
 Password: 1234567890
 ---
