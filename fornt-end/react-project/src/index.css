@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+body {
+  background-color: #e5e5e5;
+}
+.custom-card {
+  @apply p-8 rounded-lg shadow-lg bg-white;
+  p, div, h1, h2, h3, h4, h5, h6, input, label, textarea {
+    @apply bg-white;
+  }
+}
+
+.form-input {
+  @apply p-2 rounded-md border-2 border-gray-300 focus:outline-none focus:border-blue-500;
+}
+
+.form-btn {
+  @apply bg-blue-500 select-none cursor-pointer text-white py-2 px-4 rounded-md hover:bg-blue-600  disabled:hover:bg-blue-500 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+/* Hide the number input arrows in Webkit browsers (Chrome, Safari, Edge) */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide the number input arrows in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
