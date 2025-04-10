@@ -33,6 +33,7 @@ The application consists of two main pages:
 ## Test Account Credentials
 
 You can use the following credentials to log in without registering:
+```bash
 Email: test5@email.com
 Password: 1234567890
 ---
@@ -45,6 +46,7 @@ Password: 1234567890
    npm install
    npm start
 2. **Backend**
+  ```bash
     cd backend
     pip install -r requirements.txt
     flask run
